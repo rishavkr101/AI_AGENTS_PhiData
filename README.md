@@ -1,4 +1,4 @@
-# NVDA Analyst and News Aggregator
+# Analyst and News Aggregator
 
 This project uses a team of agents to fetch and display analyst recommendations and the latest news for any public listed company. It leverages the `phi.agent` framework along with the `YFinanceTools` for financial data and `DuckDuckGo` for news searches.
 
