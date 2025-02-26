@@ -5,7 +5,7 @@ This project uses a team of agents to fetch and display analyst recommendations 
 ## Overview
 
 The application creates three agents:
-- Web Agent:Uses the DuckDuckGo tool to fetch news related to NVIDIA.
+- Web Agent:Uses the DuckDuckGo tool to fetch news related to company.
 - Finance Agent: Uses YFinance tools to retrieve stock price, analyst recommendations, and stock fundamentals.
 - Agent Team: Combines both agents, setting instructions to include sources and display data using tables.
 
@@ -14,7 +14,7 @@ The final result is printed to the console using a streaming Markdown output.
 ## Features
 
 - Analyst Recommendations:Summarizes recommendations (e.g., Strong Buy, Buy, Hold) over various time periods.
-- Latest News:Retrieves recent news articles about NVIDIA.
+- Latest News:Retrieves recent news articles about companies.
 - Markdown Output:Uses Markdown formatting to present the data neatly.
 - Tool Integration: Demonstrates the integration of financial data and web search tools.
 
